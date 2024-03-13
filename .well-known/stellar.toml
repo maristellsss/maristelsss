@@ -3,6 +3,7 @@ VERSION="2.2.1"
 ACCOUNTS=[
 "GB3BCG256DVWGBKEYMB2PEMUCHQYLAG7PBULLEFP73FSQTLY4VCQLQN2",
 "GBI2W5CHBWAL2ACQVIE64RKW3WUUIHSIMACSRQ77RBDEMSLT6IBDKI5A",
+"GA3QHC2OXITTHJOG4WBUONCRWDHLJG3LWFN72LANT6OBD4UYG2RTBMOF",
 ]
 
 [DOCUMENTATION]
@@ -21,10 +22,6 @@ anchor_asset_type="crypto"
 name="Marriott"
 desc="Book Directly & Save at any of our 8000+ Marriott Bonvoy Hotels. Choose from Luxury Hotels, Resorts, Extended Stay Hotels, Pet-Friendly Hotels & More with Stellar Blockchain."
 image="https://www.marriott-stellar.com/mar.jpg"
-fixed_number=2000000
-max_number=2000000
-is_unlimited=false
-#Marriott Asset was issued using the open and inclusive Stellar blockchain network.
 
 [[CURRENCIES]]
 code="MSE"
@@ -35,7 +32,13 @@ anchor_asset_type="crypto"
 name="Marriott Silver Elite"
 desc="Marriott Silver Elite Membership Token, Dividends up to 22% Monthly, Make the most of your stay get 10% More Points, Priority Late Checkout, Member Rates & Complimentary WiFi"
 image="https://www.marriott-stellar.com/mse.png"
-fixed_number=200
-max_number=200
-is_unlimited=false
-#MSE Asset was issued using the open and inclusive Stellar blockchain network.
+
+[[CURRENCIES]]
+code="MGE"
+status="live"
+display_decimals=2
+issuer="GA3QHC2OXITTHJOG4WBUONCRWDHLJG3LWFN72LANT6OBD4UYG2RTBMOF"
+anchor_asset_type="crypto"
+name="Marriott Gold Elite"
+desc="Marriott Gold Elite Membership Token, Dividends up to 25% Monthly, Make the most of your stay get 25% More Points, 2 PM Late Checkout, Enhanced Room Upgrade."
+image="https://www.marriott-stellar.com/mge.jpg"
